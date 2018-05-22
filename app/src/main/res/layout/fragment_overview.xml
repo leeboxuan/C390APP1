@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sg.edu.rp.c346.c390app1.OverviewFragment"
+    android:background="#FFFFFF">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Portfolio Development"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/tvAbout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:scrollbars="vertical"
+            android:text="Testing"
+            android:textAlignment="viewStart"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:fillViewport="true"/>
+    </LinearLayout>
+
+
+</FrameLayout>

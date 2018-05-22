@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">C390APP1</string>
+    <string name="title_activity_nav">NavActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="email_address">Email Address</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+
+</resources>

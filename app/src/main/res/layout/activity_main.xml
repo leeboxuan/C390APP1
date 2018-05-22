@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id = "@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#48C9B0"
+    tools:context="sg.edu.rp.c346.c390app1.MainActivity">
+
+    <TextView
+        android:id="@+id/textViewLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        />
+
+    <Button
+        android:id="@+id/buttonSignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/textViewLogin"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_buttons"
+    />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/buttonSignin"
+        android:background="@drawable/round_buttons"/>
+
+
+</RelativeLayout>

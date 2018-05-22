@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#148F77"
+    android:orientation="vertical"
+    tools:context="sg.edu.rp.c346.c390app1.RegisterActivity">
+
+
+    <!--  Email Label -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50px" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Display Name"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/email_address"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:layout_marginTop="5dip"
+        android:inputType="textEmailAddress"
+         />
+    <!-- Password Label -->
+    <TextView
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Password"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:inputType="textPassword"
+        android:maxLines="1" />
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:backgroundTint="#0E6251"
+        android:text="Register New Account"
+        android:textColor="@android:color/white"
+        android:typeface="monospace"
+        android:background="@drawable/round_buttons"/>
+    <!-- Link to Login Screen -->
+    <TextView
+        android:id="@+id/link_to_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dip"
+        android:layout_marginTop="40dip"
+        android:gravity="center"
+        android:text="Already has account? Login here"
+        android:textColor="?attr/colorButtonNormal"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:clickable="true"
+         />
+
+</LinearLayout>
